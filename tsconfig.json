@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    // /* Language and Environment */
-    // "target": "es2016",
-    // /* Modules */
-    // "module": "commonjs", 
-
-    // "skipLibCheck": true
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    //"strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "esModuleInterop":true                            
+    "emitDecoratorMetadata": true
   }
 }

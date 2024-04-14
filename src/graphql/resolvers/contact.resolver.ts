@@ -1,6 +1,5 @@
 import { Query,Mutation,Arg,Resolver } from "type-graphql";
 import {Contact} from "../types/contact";
-import { ContactDto } from "../../dto/contact.dto";
 import  {Service} from "typedi";
 import { PrismaService } from '../../services/prisma.service';
 
@@ -9,7 +8,7 @@ import { PrismaService } from '../../services/prisma.service';
 export class ContactResolver {
     constructor(private prisma: PrismaService) {}
     @Query(() => [Contact])
-    async contacts():Promise<Array<ContactDto>> {
+    async contacts(){
         return await this.prisma.client.contact.findMany();
     }
 

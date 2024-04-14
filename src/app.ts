@@ -25,7 +25,7 @@ async function main() {
   server.applyMiddleware({ app, path: '/graphql' });
 
   app.listen(3002, () => {
-    console.log('Server is running on port 3002');
+    console.log('Server is running on port 3002 - http://localhost:3002/graphql');
   });
 }
 

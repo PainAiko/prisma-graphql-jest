@@ -10,7 +10,6 @@ export  class ContactController {
         return await this.prisma.client.contact.findMany();
     }
 
-
     @Post()
     async create(@Body() contactData: any) {
         return await this.prisma.client.contact.create({ data: contactData });

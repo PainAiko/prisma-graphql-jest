@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    // /* Language and Environment */
+    // "target": "es2016",
+    // /* Modules */
+    // "module": "commonjs", 
+
+    // "skipLibCheck": true
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop":true                            
+  }
+}

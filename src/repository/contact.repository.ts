@@ -1,4 +1,5 @@
+import { PrismaService } from "../services/prisma.service";
+
 export class ContactRepository {
-    constructor() {
-    }
+    constructor(private prisma: PrismaService) {}
 }

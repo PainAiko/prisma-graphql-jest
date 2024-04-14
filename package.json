@@ -16,6 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^5.12.1",
+    "apollo-server": "^3.13.0",
+    "class-transformer": "^0.5.1",
     "graphql": "^15.8.0",
     "reflect-metadata": "^0.2.2",
     "routing-controllers": "^0.10.4",
